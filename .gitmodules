@@ -1,0 +1,15 @@
+[submodule "src/third_party/DiligentCore"]
+	path = src/third_party/DiligentCore
+	url = https://github.com/Svengali/DiligentCore
+[submodule "src/third_party/DiligentFX"]
+	path = src/third_party/DiligentFX
+	url = https://github.com/Svengali/DiligentFX
+[submodule "src/third_party/DiligentTools"]
+	path = src/third_party/DiligentTools
+	url = https://github.com/Svengali/DiligentTools
+[submodule "src/third_party/Pham"]
+	path = src/third_party/Pham
+	url = https://github.com/Svengali/Pham
+[submodule "src/third_party/cblib"]
+	path = src/third_party/cblib
+	url = https://github.com/Svengali/cblib
