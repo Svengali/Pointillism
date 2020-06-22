@@ -89,6 +89,7 @@ void ImguiDemo::Render()
 {
     auto* pRTV = m_pSwapChain->GetCurrentBackBufferRTV();
     m_pImmediateContext->ClearRenderTarget(pRTV, &m_ClearColor.x, RESOURCE_STATE_TRANSITION_MODE_TRANSITION);
+
 }
 
 

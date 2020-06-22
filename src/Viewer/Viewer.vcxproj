@@ -167,6 +167,9 @@
     <ClCompile Include="WinMain.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\third_party\cblib\cblib.vcxproj">
+      <Project>{428c5bd5-d039-4373-81a2-42233350d84b}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\third_party\DiligentCore\build\Common\Diligent-Common.vcxproj">
       <Project>{5a6380ec-3508-3010-946a-f087c1a4ea27}</Project>
     </ProjectReference>
@@ -217,6 +220,9 @@
     </ProjectReference>
     <ProjectReference Include="..\third_party\DiligentTools\build\ThirdParty\lpng-1.6.17\LibPng.vcxproj">
       <Project>{1a7adf1a-41db-35b5-9cea-02318980995a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\Pham\Pham.vcxproj">
+      <Project>{66091708-83e0-4556-a9cb-10518ebbd7d6}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
