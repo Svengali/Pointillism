@@ -25,6 +25,8 @@
  *  of the possibility of such damages.
  */
 
+#include "stdafx.h"
+
 #include "PlatformDefinitions.h"
 #include "SampleBase.hpp"
 #include "Errors.hpp"
@@ -60,7 +62,7 @@ void SampleBase::GetEngineInitializationAttribs(RENDER_DEVICE_TYPE DeviceType, E
 #if VULKAN_SUPPORTED
         case RENDER_DEVICE_TYPE_VULKAN:
         {
-            // EngineVkCreateInfo& EngVkAttribs = static_cast<EngineVkCreateInfo&>(EngineCI);
+            EngineVkCreateInfo& EngVkAttribs = static_cast<EngineVkCreateInfo&>(EngineCI);
         }
         break;
 #endif

@@ -13,3 +13,6 @@
 [submodule "src/third_party/cblib"]
 	path = src/third_party/cblib
 	url = https://github.com/Svengali/cblib
+[submodule "src/third_party/ORB_SLAM2_dense"]
+	path = src/third_party/ORB_SLAM2_dense
+	url = https://github.com/Svengali/ORB_SLAM2_dense

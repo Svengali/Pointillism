@@ -25,6 +25,7 @@
  *  of the possibility of such damages.
  */
 
+#include "stdafx.h"
 #include <memory>
 #include <iomanip>
 #include <iostream>

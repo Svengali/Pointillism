@@ -112,11 +112,13 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level4</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions> _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING; _DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\prj\rob\Pointillism\src\third_party\DiligentTools\AssetLoader\interface;D:\prj\rob\Pointillism\src\third_party\DiligentTools\AssetLoader\include;D:\prj\rob\Pointillism\src\third_party\DiligentTools\TextureLoader\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Primitives\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsEngine\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsTools\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Common\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Platforms\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsAccessories\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsEngineD3D12\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsEngineVulkan\interface;D:\prj\rob\Pointillism\src\third_party\DiligentTools\ThirdParty\imgui;D:\prj\rob\Pointillism\src\third_party\DiligentTools\Imgui\interface</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\third_party\ORB_SLAM2_dense\include;..\third_party\ORB_SLAM2_dense;..\third_party\;..\third_party\Pham\src;D:\prj\rob\Pointillism\src\third_party\DiligentTools\AssetLoader\interface;D:\prj\rob\Pointillism\src\third_party\DiligentTools\AssetLoader\include;D:\prj\rob\Pointillism\src\third_party\DiligentTools\TextureLoader\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Primitives\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsEngine\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsTools\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Common\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Platforms\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsAccessories\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsEngineD3D12\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsEngineVulkan\interface;D:\prj\rob\Pointillism\src\third_party\DiligentTools\ThirdParty\imgui;D:\prj\rob\Pointillism\src\third_party\DiligentTools\Imgui\interface</AdditionalIncludeDirectories>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -129,13 +131,15 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>Level4</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions> _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING; NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\prj\rob\Pointillism\src\third_party\DiligentTools\AssetLoader\interface;D:\prj\rob\Pointillism\src\third_party\DiligentTools\AssetLoader\include;D:\prj\rob\Pointillism\src\third_party\DiligentTools\TextureLoader\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Primitives\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsEngine\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsTools\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Common\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Platforms\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsAccessories\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsEngineD3D12\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsEngineVulkan\interface;D:\prj\rob\Pointillism\src\third_party\DiligentTools\ThirdParty\imgui;D:\prj\rob\Pointillism\src\third_party\DiligentTools\Imgui\interface</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\third_party\ORB_SLAM2_dense\include;..\third_party\ORB_SLAM2_dense;..\third_party\;..\third_party\Pham\src;D:\prj\rob\Pointillism\src\third_party\DiligentTools\AssetLoader\interface;D:\prj\rob\Pointillism\src\third_party\DiligentTools\AssetLoader\include;D:\prj\rob\Pointillism\src\third_party\DiligentTools\TextureLoader\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Primitives\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsEngine\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsTools\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Common\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Platforms\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsAccessories\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsEngineD3D12\interface;D:\prj\rob\Pointillism\src\third_party\DiligentCore\Graphics\GraphicsEngineVulkan\interface;D:\prj\rob\Pointillism\src\third_party\DiligentTools\ThirdParty\imgui;D:\prj\rob\Pointillism\src\third_party\DiligentTools\Imgui\interface</AdditionalIncludeDirectories>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -150,21 +154,51 @@
     <ClInclude Include="AppBase.hpp" />
     <ClInclude Include="ImguiDemo.hpp" />
     <ClInclude Include="InputController.hpp" />
+    <ClInclude Include="Orb.h" />
+    <ClInclude Include="res\ResDETex.h" />
     <ClInclude Include="SampleApp.hpp" />
     <ClInclude Include="SampleBase.hpp" />
+    <ClInclude Include="stdafx.h" />
     <ClInclude Include="Win32\InputControllerWin32.hpp" />
     <ClInclude Include="WinMain.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ImguiDemo.cpp" />
-    <ClCompile Include="InputControllerWin32.cpp" />
-    <ClCompile Include="SampleApp.cpp" />
-    <ClCompile Include="SampleAppWin32.cpp" />
-    <ClCompile Include="SampleBase.cpp" />
-    <ClCompile Include="Win32\ImGuiImplWin32.cpp" />
-    <ClCompile Include="Win32\InputControllerWin32.cpp" />
-    <ClCompile Include="Win32\SampleAppWin32.cpp" />
-    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="ImguiDemo.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="InputControllerWin32.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Orb.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="res\ResDETex.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SampleApp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SampleAppWin32.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SampleBase.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Win32\ImGuiImplWin32.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Win32\InputControllerWin32.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Win32\SampleAppWin32.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\third_party\cblib\cblib.vcxproj">
@@ -220,6 +254,15 @@
     </ProjectReference>
     <ProjectReference Include="..\third_party\DiligentTools\build\ThirdParty\lpng-1.6.17\LibPng.vcxproj">
       <Project>{1a7adf1a-41db-35b5-9cea-02318980995a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\ORB_SLAM2_dense\build\ORB_SLAM2.vcxproj">
+      <Project>{0dc3a550-c3ca-3fd3-87a7-319e1a45537d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\ORB_SLAM2_dense\Thirdparty\DBoW2\build\DBoW2.vcxproj">
+      <Project>{082d6d7d-e045-3879-ad1a-553073998e5a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\third_party\ORB_SLAM2_dense\Thirdparty\g2o\build\g2o.vcxproj">
+      <Project>{c6801e76-d216-38dd-a51c-26d3e49e788a}</Project>
     </ProjectReference>
     <ProjectReference Include="..\third_party\Pham\Pham.vcxproj">
       <Project>{66091708-83e0-4556-a9cb-10518ebbd7d6}</Project>

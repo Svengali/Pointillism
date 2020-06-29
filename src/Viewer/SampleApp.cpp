@@ -25,6 +25,7 @@
 *  of the possibility of such damages.
 */
 
+#include "stdafx.h"
 #include <sstream>
 #include <iomanip>
 #include <cstdlib>

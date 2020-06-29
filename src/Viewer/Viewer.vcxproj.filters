@@ -7,57 +7,84 @@
     <Filter Include="src\Win32">
       <UniqueIdentifier>{565ad4fc-0a77-40d8-93d9-6d24cf958c11}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{6038dc52-04fc-4eb5-bca3-3a006694f2fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\grx">
+      <UniqueIdentifier>{77ea814a-e6c4-4adc-a1c1-cd7ea8c49d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\res">
+      <UniqueIdentifier>{3904c21c-9c58-466a-9125-a1847a7cc67f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ImguiDemo.hpp">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="InputController.hpp">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="SampleApp.hpp">
-      <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="SampleBase.hpp">
-      <Filter>src</Filter>
-    </ClInclude>
     <ClInclude Include="Win32\InputControllerWin32.hpp">
       <Filter>src\Win32</Filter>
     </ClInclude>
-    <ClInclude Include="WinMain.hpp">
+    <ClInclude Include="Orb.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="AppBase.hpp">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ImguiDemo.hpp">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="InputController.hpp">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleApp.hpp">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleBase.hpp">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="WinMain.hpp">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="res\ResDETex.h">
+      <Filter>src\res</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ImguiDemo.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="SampleApp.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="SampleBase.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="Win32\SampleAppWin32.cpp">
       <Filter>src\Win32</Filter>
     </ClCompile>
     <ClCompile Include="Win32\InputControllerWin32.cpp">
       <Filter>src\Win32</Filter>
     </ClCompile>
-    <ClCompile Include="WinMain.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="InputControllerWin32.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="SampleAppWin32.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="Win32\ImGuiImplWin32.cpp">
       <Filter>src\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Orb.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ImguiDemo.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="InputControllerWin32.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleApp.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleAppWin32.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleBase.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>src\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="res\ResDETex.cpp">
+      <Filter>src\res</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

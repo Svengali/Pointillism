@@ -29,6 +29,8 @@
 
 #include "SampleBase.hpp"
 #include "BasicMath.hpp"
+#include "Orb.h"
+
 
 namespace Diligent
 {
@@ -44,7 +46,7 @@ public:
     virtual void Render() override final;
     virtual void Update(double CurrTime, double ElapsedTime) override final;
 
-    virtual const Char* GetSampleName() const override final { return "Dear Imgui Demo"; }
+    virtual const Char* GetSampleName() const override final { return "SLAM"; }
 
     virtual void WindowResize(Uint32 Width, Uint32 Height) override final;
 
@@ -54,6 +56,12 @@ private:
     bool   m_ShowDemoWindow    = true;
     bool   m_ShowAnotherWindow = false;
     float4 m_ClearColor        = {0.45f, 0.55f, 0.60f, 1.00f};
+
+    Orb m_orb;
+
+    int m_lastProcessedFrame = 0;
+    int m_lastProcessedKeyframe = 0;
+
 };
 
 } // namespace Diligent
